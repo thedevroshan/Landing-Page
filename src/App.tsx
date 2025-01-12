@@ -50,12 +50,72 @@ function App() {
 
       <div className="w-[80vw] h-full bg-transparent flex flex-col gap-6 items-start m-auto mt-8">
         <div className="w-full flex gap-6">
-          <div className="bg-white border shadow-md w-full h-14"></div>
-          <div className="bg-white border shadow-md w-full h-14"></div>
+          <div className="bg-white border shadow-md w-full h-14 px-3 items-center flex gap-2">
+            <a
+              href="https://www.youtube.com/@thedevroshan"
+              className="flex gap-2 items-center"
+              target="_blank"
+            >
+              <img
+                src="/youtube-icon.png"
+                alt="Youtube"
+                className="w-12 cursor-pointer animate-custom-float"
+              />
+              <span className="text-lg font-semibold cursor-pointer">
+                Youtube
+              </span>
+            </a>
+          </div>
+          <div className="bg-white border shadow-md w-full h-14 px-3 items-center flex gap-2">
+            <a
+              href="https://www.instagram.com/thedevroshan"
+              className="flex gap-2 items-center"
+              target="_blank"
+            >
+              <img
+                src="/instagram-icon.png"
+                alt="Instagram"
+                className="w-9 cursor-pointer animate-custom-float"
+              />
+              <span className="text-lg font-semibold cursor-pointer">
+                Instagram
+              </span>
+            </a>
+          </div>
         </div>
         <div className="w-full flex gap-6">
-          <div className="bg-white border shadow-md w-full h-14"></div>
-          <div className="bg-white border shadow-md w-full h-14"></div>
+          <div className="bg-white border shadow-md w-full h-14 px-3 items-center flex gap-2">
+            <a
+              href="https://www.github.com/thedevroshan"
+              className="flex gap-2 items-center"
+              target="_blank"
+            >
+              <img
+                src="/github-icon.png"
+                alt="Github"
+                className="w-10 cursor-pointer animate-custom-float"
+              />
+              <span className="text-lg font-semibold cursor-pointer">
+                Github
+              </span>
+            </a>
+          </div>
+          <div className="bg-white border shadow-md w-full h-14 px-3 items-center flex gap-2">
+            <a
+              href="#"
+              className="flex gap-2 items-center"
+              target="_blank"
+            >
+              <img
+                src="/roshan.jpg"
+                alt="Roshan"
+                className="w-9 cursor-pointer rounded-lg animate-custom-float"
+              />
+              <span className="text-lg font-semibold cursor-pointer">
+                Portfolio
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </>

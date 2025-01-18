@@ -21,7 +21,7 @@ function App() {
             <span className="font-semibold">KOLKATA, INDIA</span>
           </div>
           <span className="font-semibold text-[#383838] w-56 md:w-96 text-start">
-            I am Game Developer, Web Developer and Video Editor. Wha has
+            I am Game Developer, Web Developer and Video Editor. Who has
             developed many website and games. Also working in a gamed dev team -{" "}
             <strong>ROAS Productions</strong>
           </span>

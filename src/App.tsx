@@ -18,7 +18,7 @@ function App() {
               alt="Location Icon"
               className="w-5 animate-bounce"
             />
-            <span className="font-semibold">KOLKATA, INDIA</span>
+            <span className="font-semibold">INDIA</span>
           </div>
           <span className="font-semibold text-[#383838] w-56 md:w-96 text-start">
             I am Game Developer, Web Developer and Video Editor. I have
@@ -28,9 +28,12 @@ function App() {
 
           <div className="flex flex-col gap-2 w-full h-fit">
             <div className="flex gap-2">
-              <button className="bg-black w-full py-2 text-white hover:font-semibold transition-all">Email</button>
+              <button className="bg-black w-full py-2 text-white hover:font-semibold transition-all" onClick={(e)=>{
+                (e.target as HTMLButtonElement).innerText = "Copied!"
+                navigator.clipboard.writeText("roshankewat9090@gmail.com")
+              }}>Email</button>
               <a
-                href="http://"
+                href="https://discord.gg/FWkJZ544mM"
                 className="bg-black w-full py-2 text-white text-center hover:font-semibold transition-all"
                 target="_blank"
               >
@@ -38,8 +41,8 @@ function App() {
               </a>
             </div>
             <a
-              href="http://"
-              className="bg-black w-full py-2 text-center text-white hover:font-semibold transition-all"
+              href="#"
+              className="bg-black w-full py-2 text-center text-white hover:font-semibold transition-all cursor-default pointer-events-none"
               target="_blank"
             >
               Game Dev Team
@@ -101,14 +104,14 @@ function App() {
             </a>
           </div>
           <div className="bg-white border shadow-md w-full h-14 px-3 items-center flex gap-2">
-            <a href="#" className="flex gap-2 items-center" target="_blank">
+            <a href="#" className="flex gap-2 items-center cursor-default pointer-events-none" target="_blank">
               <img
                 src="/roshan.jpg"
                 alt="Roshan"
                 className="w-9 cursor-pointer rounded-lg animate-custom-float"
               />
               <span className="text-lg font-semibold cursor-pointer">
-                Portfolio
+                Portfolio <span>(Not Available Right Now)</span>
               </span>
             </a>
           </div>
